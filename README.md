@@ -1,45 +1,63 @@
 # Conversor de Moeda: Dólar para Real 💱
 
-https://conversor-de-moeda-acpicydmm-rafcksdevs-projects.vercel.app
 
-Este é um projeto simples de conversor de moedas que realiza a conversão entre **Dólar (US$)** e **Real (R$)**. Ele foi desenvolvido com o objetivo de reforçar conhecimentos em **HTML**, **CSS** e **JavaScript**, além de aplicar boas práticas no desenvolvimento de interfaces e manipulação de dados.
+![image](https://github.com/user-attachments/assets/27e7f0b7-230e-489e-87db-6c089c216002)
+
+
+🌐 [Acesse o projeto online](https://conversor-de-moeda-acpicydmm-rafcksdevs-projects.vercel.app)
+
+Este projeto é um conversor de moedas que realiza a conversão entre **Dólar (US$)** e **Real (R$)**. Criado com o objetivo de consolidar conhecimentos em **HTML**, **CSS** e **JavaScript**, o projeto também utiliza boas práticas de desenvolvimento para proporcionar uma experiência simples e intuitiva.
 
 ---
 
-## 📚 O que Aprendi com Este Projeto
+## 📚 Aprendizados
 
-Durante o desenvolvimento, aprofundei conhecimentos nas seguintes áreas:
+Durante o desenvolvimento deste projeto, obtive melhorias significativas em várias áreas, incluindo:
 
-- **Manipulação do DOM** com JavaScript:
-  - Captura e manipulação de elementos utilizando `querySelector`.
-  - Adição de eventos como `keyup` e `blur` para interatividade em tempo real.
-  
-- **Formatação e validação de valores monetários:**
-  - Uso de `Intl.NumberFormat` para padronizar os valores no formato brasileiro.
-  - Validação de entradas para evitar erros de conversão com `isNaN`.
+### 🖱️ **Interação com o DOM**
+- Manipulação eficiente de elementos HTML usando `querySelector`.
+- Adição de eventos (`keyup`, `blur`) para capturar ações do usuário e atualizar os campos de forma dinâmica.
 
-- **Boas práticas de programação:**
-  - Separação de responsabilidades com funções reutilizáveis.
-  - Implementação de lógica condicional e operadores matemáticos para cálculos dinâmicos.
+### 💵 **Validação e Formatação Monetária**
+- Utilização de `Intl.NumberFormat` para formatar valores no padrão brasileiro.
+- Implementação de validações para evitar erros em entradas inválidas (e.g., `isNaN`).
 
-- **Estilização Responsiva:**
-  - Utilização de variáveis CSS para facilitar manutenção de cores e estilos.
-  - Aplicação de design minimalista para melhorar a experiência do usuário.
+### 🧹 **Código Limpo e Reutilizável**
+- Divisão lógica de responsabilidades em funções como `fixValue`, `formatCurrency` e `convert`.
+- Garantia de modularidade e facilidade de manutenção.
+
+### 📱 **Design Responsivo**
+- Uso de variáveis CSS para personalizar cores e facilitar ajustes futuros.
+- Estilização minimalista para uma interface agradável em dispositivos móveis e desktops.
 
 ---
 
 ## 🛠️ Funcionalidades
 
-- **Conversão Bidirecional:** 
-  - Digite no campo de **US$** para converter automaticamente para **R$** e vice-versa.
-  
-- **Formatação Monetária:**
-  - Valores formatados conforme os padrões de cada moeda (exemplo: "1.000,00" para o Brasil).
-  
-- **Taxa de Câmbio Fixa:** 
-  - Configurada diretamente no código (pode ser atualizada).
+### 🔄 **Conversão Automática**
+- **De Dólar para Real:** Digite um valor em **US$** e veja o equivalente em **R$**.
+- **De Real para Dólar:** Digite um valor em **R$** e veja o equivalente em **US$**.
 
-- **Interface Simples e Responsiva:**
-  - Funciona bem em dispositivos móveis e desktops.
+### 🧮 **Cálculos com Precisão**
+- Formatação monetária com até duas casas decimais.
+- Conversão baseada em uma taxa fixa configurável no código.
+
+### 🎨 **Interface Intuitiva e Responsiva**
+- Experiência fluida e acessível em qualquer dispositivo.
+- Layout simples, com foco na funcionalidade.
 
 ---
+
+## 🛠️ Ferramentas e Tecnologias
+
+- **HTML5**: Estruturação da página e dos elementos.
+- **CSS3**: Criação de estilos responsivos e minimalistas.
+- **JavaScript (ES6)**: Implementação da lógica de conversão e manipulação de eventos.
+
+---
+
+## 🚀 Como Usar o Projeto
+
+1. **Clone este repositório:**
+   ```bash
+   git clone https://github.com/devrafcks/conversor-moeda

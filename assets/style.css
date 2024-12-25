@@ -1,0 +1,110 @@
+:root {
+    --background: #f9f9f9;
+    --primary: #70882f;
+    --foreground: #f0f8ff;
+    --accent: #6fca72;
+    --secondary: #646464;
+    --secondary-light: #e6e3e3;
+    --border: #c4bbbb8b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    font-size: 64.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+header img {
+    width: auto;
+    height: 10rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+main {
+    margin: 4rem auto;
+    padding: 0 2rem;
+    max-width: 90rem;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    background-color: var(--foreground);
+    border: 1px solid var(--border);
+    border-radius: 0.8rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 70rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+main section:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+main section span {
+    display: block;
+    margin-right: 1.5rem;
+    color: var(--accent);
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+main section input {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    color: var(--primary);
+    font-size: 3.5rem;
+    font-weight: bold;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-align: right;
+    transition: border-color 0.3s ease-in-out;
+}
+
+main section input:focus {
+    border-color: var(--accent);
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--secondary);
+    margin-top: 3rem;
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: rgb(75, 123, 89);
+}
